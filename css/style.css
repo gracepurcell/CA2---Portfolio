@@ -1,0 +1,69 @@
+body{
+    background: url('../images/headerimage.png') no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+
+.title{
+  font-family: 'Great Vibes', cursive;
+  font-size: 19.24em;
+  color: #F7941E;
+  margin-top:300px;
+}
+.subtitle{
+  font-family: 'Raleway', sans-serif;
+  font-size: 2em;
+  color: #fff;
+  font-weight:300;
+  text-align: center;
+  margin-bottom: 200px;
+}
+
+
+
+.aboutMe {
+  margin-top:100px;
+  margin-bottom:100px;
+}
+.aboutMe h2{
+  font-family: 'Raleway', sans-serif;
+  font-size: 6em;
+  color: #fff;
+}
+.aboutMe h2 b{
+  font-family: 'Great Vibes', cursive;
+  color: #F7941E;
+}
+.description, .preview{
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.7em;
+  color: #fff;
+}
+
+
+
+.title-proj{
+  margin-top:150px;
+  margin-bottom:150px;
+}
+.projname{
+  font-family: 'Raleway', sans-serif;
+  background-color: #F7941E;
+  font-size: 5em;
+  font-weight: 300;
+  padding: 10px;
+}
+.projdesc{
+  margin-top: 50px;
+  font-family: 'Raleway', sans-serif;
+  color: #fff;
+  font-size: 1.6em;
+}
+
+.logo img{
+  width: 100%;
+}
