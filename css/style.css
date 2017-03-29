@@ -6,64 +6,111 @@ body{
     background-size: cover;
 }
 
-
-
-.title{
-  font-family: 'Great Vibes', cursive;
-  font-size: 19.24em;
-  color: #F7941E;
-  margin-top:300px;
+.annotation,
+.contacttitle,
+.details,
+.projname,
+.projdesc,
+.subtitle{
+font-weight: 300;
 }
+
+.aboutMe h2,
+.annotation,
+.contacttitle,
+.description,
+.details,
+.projdesc,
+.projname,
+.preview,
 .subtitle{
   font-family: 'Raleway', sans-serif;
-  font-size: 2em;
-  color: #fff;
-  font-weight:300;
-  text-align: center;
-  margin-bottom: 200px;
 }
 
-
-
-.aboutMe {
-  margin-top:100px;
-  margin-bottom:100px;
-}
-.aboutMe h2{
-  font-family: 'Raleway', sans-serif;
-  font-size: 6em;
+.aboutMe h2,
+.annotation,
+.description,
+.details,
+.projdesc,
+.preview,
+.subtitle{
   color: #fff;
 }
+
+.description,
+.preview{
+  font-size: 1.4em;
+  padding:10px;
+  font-weight: 300;
+  margin-top: 50px;
+}
+
+.title,
 .aboutMe h2 b{
   font-family: 'Great Vibes', cursive;
   color: #F7941E;
 }
-.description, .preview{
-  font-family: 'Raleway', sans-serif;
-  font-size: 1.7em;
-  color: #fff;
+
+.projname,
+.contacttitle{
+  background-color: #F7941E;
+  font-size: 4em;
+  padding: 10px;
 }
 
+.contacttitle,
+.map,
+.details{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
 
+.contacttitle,
+.map{
+  text-align: center;
+}
 
-.title-proj{
+.title{
+  font-size: 19.24em;
+  margin-top:300px;
+}
+.subtitle{
+  font-size: 1.5em;
+  text-align: center;
+  margin-bottom: 200px;
+}
+
+.aboutMe,
+.title-proj {
   margin-top:150px;
   margin-bottom:150px;
 }
-.projname{
-  font-family: 'Raleway', sans-serif;
-  background-color: #F7941E;
-  font-size: 5em;
-  font-weight: 300;
-  padding: 10px;
+.aboutMe h2{
+  font-size: 6em;
+}
+
+.platform-logo{
+  width:100%;
 }
 .projdesc{
   margin-top: 50px;
-  font-family: 'Raleway', sans-serif;
-  color: #fff;
   font-size: 1.6em;
 }
 
 .logo img{
   width: 100%;
+}
+
+.annotation{
+  border:1px solid #F7941E;
+  font-size: 1.4em;
+  padding:10px;
+}
+
+.cont{
+  padding: 50px;
+}
+
+.details{
+  text-align: right;
 }
