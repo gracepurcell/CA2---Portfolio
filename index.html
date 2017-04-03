@@ -18,7 +18,10 @@
     <section id="head">
       <div class="container">
         <div class="row">
-          <div class="col-md-6 col-md-push-3 ">
+          <div class="col-sm-12 hidden-md hidden-lg ">
+            <img class="center-block" src="images/profile.png" />
+          </div>
+          <div class="col-md-6 col-md-push-3">
             <h1 class="title">Grace</h2>
           </div>
           <div class="col-md-12">
@@ -52,10 +55,13 @@
           </div>
           <div class="col-md-4">
             <p class="description">
-              as you can see below i have dabbled in more than one area of technologybe it Web Design, Android Programming and Physical Computing.
+              As you can see below i have dabbled in more than one
+              area of technology be it Web Design, Android Programming
+              and Physical Computing. I hope you enjoy each project i
+               have described below as much as i enjoyed creating them.
             </p>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 hidden-sm hidden-xs">
             <img src="images/profile.png" />
           </div>
         </div>
@@ -80,24 +86,55 @@
 
         <section id="proj" class="proj" style="background: #2f2f2f;">
           <div class="container">
-            <div class="row title-proj">
-              <div class="col-md-2 col-md-offset-1">
-                <img src="images/brain(3).png" />
+            <div class="row desc-proj">
+              <div class="row diagram hidden-xs">
+                <div class="col-md-2 col-xs-2 col-xs-offset-1 col-md-offset-1">
+                  <img class="thesis-icon" src="images/brain(3).png" />
+                </div>
+                <div class="col-md-2 col-xs-2">
+                  <img class="thesis-icon" src="images/right-arrow.png" />
+                </div>
+                <div class="col-md-2 col-xs-2">
+                  <img class="thesis-icon" src="images/open-laptop-computer.png" />
+                </div>
+                <div class="col-md-2 col-xs-2">
+                  <img class="thesis-icon" src="images/right-arrow.png" />
+                </div>
+                <div class="col-md-2 col-xs-2">
+                  <img class="thesis-icon" src="images/car.png" />
+                </div>
               </div>
-              <div class="col-md-2">
-                <img src="images/right-arrow.png" />
-              </div>
-              <div class="col-md-2">
-                <img src="images/open-laptop-computer.png" />
-              </div>
-              <div class="col-md-2">
-                <img src="images/right-arrow.png" />
-              </div>
-              <div class="col-md-2">
-                <img src="images/car.png" />
-              </div>
+            </div>
 
-              <div class="col-md-4">
+            <div class="row diagram hidden-md hidden-lg">
+              <div class="row diagram-row ">
+                <div class="col-xs-2 col-xs-offset-5">
+                  <img class="thesis-icon" src="images/open-laptop-computer.png" />
+                </div>
+              </div>
+              <div class="row diagram-row hidden-md">
+                <div class="col-xs-2 col-xs-offset-3">
+                  <img class="thesis-icon rotate315" src="images/right-arrow.png" />
+                </div>
+                <div class="col-xs-2 col-xs-offset-2">
+                  <img class="thesis-icon rotate45" src="images/right-arrow.png" />
+                </div>
+              </div>
+              <div class="row diagram-row hidden-md">
+                <div class="col-xs-2 col-xs-offset-2">
+                  <img class="thesis-icon" src="images/brain(3).png" />
+                </div>
+                <div class="col-xs-2 col-xs-offset-4">
+                  <img class="thesis-icon" src="images/car.png" />
+                </div>
+              </div>
+            </div>
+
+
+
+
+            <div class="row desc-proj ">
+              <div class="col-md-4 hidden-xs">
                 <p class="projdesc">
                   This project was for my thesis in my ﬁnal
                   year of college. I chose it because i
@@ -111,7 +148,7 @@
                   free software packages
                 </p>
               </div>
-              <div class="col-md-4">
+              <div class="col-md-4 hidden-xs">
                 <p class="projdesc">
                   available fromtheir website,
                   Processing, Arduino, and a
@@ -126,7 +163,7 @@
 
                 </p>
               </div>
-              <div class="col-md-4">
+              <div class="col-md-4 hidden-xs">
                 <p class="projdesc">
                   message and sent across to a sketch created in
                   Processing.<br />
@@ -140,16 +177,50 @@
                   headset.
                 </p>
               </div>
-              <div class="col-md-2 col-md-offset-6">
+              <div class="col-xs-12 hidden-md hidden-lg">
+                <p class="projdesc">
+                  This project was for my thesis in my ﬁnal
+                  year of college. I chose it because i
+                  found the topic massively interesting
+                  and found it would be a good project to
+                  do due to the area of Brain Computer
+                  interfaces to be quite experimental at
+                  this present time. <br />
+                  This project was created with the help
+                  of an Emotiv Epoc Headset, two of their
+                  free software packages
+                  available fromtheir website,
+                  Processing, Arduino, and a
+                  Parrallax Board of Education Bot.
+                  In order to do this i trained my thoughts
+                  with the Emotiv Epoc Headset and the
+                  software Xavier Control Panel. The
+                  electrical currents from beneath the
+                  scalp read by the sensors on the
+                  headset was then converted to an
+                  OpenSound Controlled (OSC)
+                  message and sent across to a sketch created in
+                  Processing.<br />
+                  After that the Processsing translated the
+                  OSC message to a value and sent
+                  across a serial portal to the sketch made
+                  with Arduino.
+                  I then implemented the Arduino board
+                  to turn left and right depending on the
+                  OSC message sent across from the
+                  headset.
+                </p>
+              </div>
+              <div class="col-md-2 col-md-offset-6 col-xs-12">
                 <img class="platform-logo" src="images/Emotiv_logo.png" />
               </div>
-              <div class="col-md-2">
+              <div class="col-md-2 col-xs-12">
                 <img class="platform-logo" src="images/ParallaxLogo-B534.png" />
               </div>
-              <div class="col-md-1">
+              <div class="col-md-1 col-xs-6">
                 <img class="platform-logo" src="images/arduino_logo.png" />
               </div>
-              <div class="col-md-1">
+              <div class="col-md-1 col-xs-6">
                 <img class="platform-logo" src="images/Processing.png" />
               </div>
             </div>
@@ -175,27 +246,58 @@
 
         <section id="proj" class="proj" style="background: #2f2f2f;">
           <div class="container">
-            <div class="row title-proj">
-              <div class="col-md-2">
-                <img src="images/tablet.png"  style ="width:75%"/>
+            <div class="row desc-proj">
+              <div class="row diagram hidden-xs">
+                <div class="col-md-2">
+                  <img src="images/tablet.png"  style ="width:60%"/>
+                </div>
+                <div class="col-md-2">
+                  <img src="images/right-arrow.png" />
+                </div>
+                <div class="col-md-2">
+                  <img src="images/wifi.png" style ="width:60%;" />
+                </div>
+                <div class="col-md-2">
+                  <img src="images/database.png" style ="width:60%;" />
+                </div>
+                <div class="col-md-2">
+                  <img src="images/right-arrow.png" />
+                </div>
+                <div class="col-md-2">
+                  <img src="images/pc-monitor.png" style ="width:60%" />
+                </div>
               </div>
-              <div class="col-md-2">
-                <img src="images/right-arrow.png" />
-              </div>
-              <div class="col-md-2">
-                <img src="images/wifi.png" style ="width:75%" />
-              </div>
-              <div class="col-md-2">
-                <img src="images/database.png" style ="width:75%" />
-              </div>
-              <div class="col-md-2">
-                <img src="images/right-arrow.png" />
-              </div>
-              <div class="col-md-2">
-                <img src="images/pc-monitor.png" style ="width:75%" />
+            </div>
+
+              <div class="row diagram hidden-md hidden-lg">
+                <div class="row diagram-row ">
+                  <div class="col-xs-2 col-xs-offset-4">
+                    <img class="server-icon" src="images/wifi.png"/>
+                  </div>
+                  <div class="col-xs-2">
+                    <img class="server-icon" src="images/database.png"/>
+                  </div>
+                </div>
+                <div class="row diagram-row hidden-md">
+                  <div class="col-xs-2 col-xs-offset-3">
+                    <img class="thesis-icon rotate315" src="images/right-arrow.png" />
+                  </div>
+                  <div class="col-xs-2 col-xs-offset-2">
+                    <img class="thesis-icon rotate45" src="images/right-arrow.png" />
+                  </div>
+                </div>
+                <div class="row diagram-row hidden-md">
+                  <div class="col-xs-2 col-xs-offset-2">
+                    <img class="server-icon" src="images/tablet.png"/>
+                  </div>
+                  <div class="col-xs-2 col-xs-offset-4">
+                    <img class="server-icon" src="images/pc-monitor.png" />
+                  </div>
+                </div>
               </div>
 
-              <div class="col-md-4">
+            <div class="row desc-proj ">
+              <div class="col-md-4 hidden-xs">
                 <p class="projdesc">
                   During the summer of 2016, I left my part time job and set up shop with an internship in a small Irish
                   company on the southside of Dublin City. They specialised in creating software named GoodMove, to manage
@@ -204,7 +306,7 @@
                   and Gas Services Limited.
                 </p>
               </div>
-              <div class="col-md-4">
+              <div class="col-md-4 hidden-xs">
                 <p class="projdesc">
                   With technology progressing they found
                   it was time to upgrade their software and add new features. My job there was to create an android Remote application
@@ -213,7 +315,7 @@
                   time stamp and signatures. The system was implemented with security checks
                 </p>
               </div>
-              <div class="col-md-4">
+              <div class="col-md-4 hidden-xs">
                 <p class="projdesc">
                   and real time information using JDBC to communicate with the server.
                   Unfortunately, as i was only in my 3rd of 4 years in college, when the summer came to  an end i was unable
@@ -222,10 +324,29 @@
                   put my mind to something.
                 </p>
               </div>
-              <div class="col-md-1 col-md-offset-10">
+              <div class="col-xs-12 hidden-md hidden-lg">
+                <p class="projdesc">
+                  During the summer of 2016, I left my part time job and set up shop with an internship in a small Irish
+                  company on the southside of Dublin City. They specialised in creating software named GoodMove, to manage
+                  small business like themselves when it came to appointments, invoicing and awaiting payments. Most of
+                  their business lay with companies that dealt with customers in person such as KN install solutions
+                  and Gas Services Limited.
+                  With technology progressing they found
+                  it was time to upgrade their software and add new features. My job there was to create an android Remote application
+                  that communicated to and from the software of each company. This was not only good for the environment,
+                  helping ditch docket books, but it also helped prevent mistakes and show how or when they happened with
+                  time stamp and signatures. The system was implemented with security checks
+                  and real time information using JDBC to communicate with the server.
+                  Unfortunately, as i was only in my 3rd of 4 years in college, when the summer came to  an end i was unable
+                  to continue my work with that project. This however was one of my favourite projects to have taken on since
+                  i started my journey in college because it was all self taught and showed me what i was capable of when i
+                  put my mind to something.
+                </p>
+              </div>
+              <div class="col-md-1 col-md-offset-10 col-xs-6">
                 <img class="platform-logo" src="images/jdbc.png" />
               </div>
-              <div class="col-md-1">
+              <div class="col-md-1 col-xs-6">
                 <img class="platform-logo" src="images/Android-logo.png" />
               </div>
             </div>
@@ -250,17 +371,45 @@
           </div>
         </section>
 
-        <section id="proj" class="proj" style="background: url('images/Capture.png'); background-size: cover;">
+        <section id="proj dayByday" class="proj dayByday hidden-xs">
           <div class="container">
-            <div class="row title-proj">
-                <div class="col-md-2">
+            <div class="row desc-proj ">
+                <div class="col-md-2 col-xs-6">
                   <p class="annotation"> Look at a <br /> specific date</p>
+                </div>
+                <div class="floatTL"style="position:absolute; top: 5299px;left: 333px;">
+                  <svg height="210" width="500">
+                    <line x1="50" y1="0" x2="0" y2="75" style="stroke:#F7941E;stroke-width:1" />
+                    <line x1="0" y1="75" x2="0" y2="200" style="stroke:#F7941E;stroke-width:2" />
+                    Sorry, your browser does not support inline SVG.
+                  </svg>
                 </div>
                 <div class="col-md-2">
                   <p class="annotation"> View your day<br /> specific route</p>
                 </div>
+                <div class="floatTL"style="position:absolute; top: 5234px;left: 458px;">
+                  <svg height="210" width="500">
+                    <line x1="120" y1="64" x2="0" y2="125" style="stroke:#F7941E;stroke-width:1" />
+                    <line x1="0" y1="125" x2="0" y2="200" style="stroke:#F7941E;stroke-width:2" />
+                    Sorry, your browser does not support inline SVG.
+                  </svg>
+                </div>
+                <div class="floatTL"style="position:absolute; top: 5283px;left: 398px;">
+                  <svg height="310" width="500">
+                    <line x1="344" y1="15" x2="500" y2="125" style="stroke:#F7941E;stroke-width:1" />
+                    <line x1="500" y1="125" x2="500" y2="248" style="stroke:#F7941E;stroke-width:2" />
+                    Sorry, your browser does not support inline SVG.
+                  </svg>
+                </div>
                 <div class="col-md-2 col-md-offset-3">
                   <p class="annotation"> Your current<br /> location</p>
+                </div>
+                <div class="floatTL"style="position:absolute; top: 5242px;left: 923px;">
+                  <svg height="210" width="500">
+                    <line x1="142" y1="56" x2="0" y2="125" style="stroke:#F7941E;stroke-width:1" />
+                    <line x1="0" y1="125" x2="0" y2="200" style="stroke:#F7941E;stroke-width:2" />
+                    Sorry, your browser does not support inline SVG.
+                  </svg>
                 </div>
                 <div class="col-md-3">
                   <p> </p>
@@ -268,6 +417,27 @@
 
                 <div class="col-md-3 col-md-offset-9">
                   <p class="annotation"> Specify a date, time<br />and location</p>
+                </div>
+                <div class="floatTL"style="position:absolute; top: 5382px;left: 1321px;">
+                  <svg height="300" width="500">
+                    <line x1="70" y1="5" x2="0" y2="150" style="stroke:#F7941E;stroke-width:1" />
+                    <line x1="0" y1="150" x2="0" y2="300" style="stroke:#F7941E;stroke-width:2" />
+                    Sorry, your browser does not support inline SVG.
+                  </svg>
+                </div>
+                <div class="floatTL"style="position:absolute; top: 5382px;left: 1378px;">
+                  <svg height="400" width="500">
+                    <line x1="70" y1="5" x2="0" y2="150" style="stroke:#F7941E;stroke-width:1" />
+                    <line x1="0" y1="150" x2="0" y2="328" style="stroke:#F7941E;stroke-width:2" />
+                    Sorry, your browser does not support inline SVG.
+                  </svg>
+                </div>
+                <div class="floatTL"style="position:absolute; top: 5382px;left: 1432px;">
+                  <svg height="400" width="500">
+                    <line x1="70" y1="5" x2="0" y2="150" style="stroke:#F7941E;stroke-width:1" />
+                    <line x1="0" y1="150" x2="0" y2="355" style="stroke:#F7941E;stroke-width:2" />
+                    Sorry, your browser does not support inline SVG.
+                  </svg>
                 </div>
             </div>
             <div class="row title-proj">
@@ -277,13 +447,119 @@
                 </div>
 
             </div>
-            <div class="row title-proj">
+            <div class="row title-proj ">
 
                 <div class="col-md-3 col-md-offset-1">
                   <p class="annotation"> Quick view of all<br /> your tasks</p>
                 </div>
+                <div class="floatTL"style="position:absolute; top: 5563px;left: 438px;">
+                  <svg height="310" width="500">
+                    <line x1="300" y1="136" x2="500" y2="180" style="stroke:#F7941E;stroke-width:1" />
+                    <line x1="500" y1="180" x2="500" y2="248" style="stroke:#F7941E;stroke-width:2" />
+                    Sorry, your browser does not support inline SVG.
+                  </svg>
+                </div>
 
             </div>
+          </div>
+        </section>
+
+        <section id="proj dayByday" class="proj dayByday hidden-md hidden-lg">
+          <div class="container">
+            <div class="row desc-proj ">
+              <div class="col-xs-6">
+                  <img class="screenshot" src="images/screenshothome.png" />
+              </div>
+              <div class="floatTL"style="position:absolute; top: 6401px; left: 105px;">
+                <svg height="210" width="500">
+                  <line x1="100" y1="0" x2="0" y2="75" style="stroke:#F7941E;stroke-width:1" />
+                  Sorry, your browser does not support inline SVG.
+                </svg>
+              </div>
+              <div class="col-xs-6">
+                <p class="annotation"> Quick view of all your tasks for that week or month.</p>
+              </div>
+              <div class="floatTL"style="position:absolute; top: 6487px;left: 104px;">
+                <svg height="210" width="500">
+                  <line x1="100" y1="0" x2="50" y2="90" style="stroke:#F7941E;stroke-width:1" />
+                  Sorry, your browser does not support inline SVG.
+                </svg>
+              </div>
+              <div class="col-xs-6">
+                <p class="annotation"> Floating action button for quick access to create a new task</p>
+              </div>
+            </div>
+
+            <div class="row desc-proj ">
+              <div class="col-xs-6">
+                  <img class="screenshot" src="images/screenshotnewnote.png" />
+              </div>
+              <div class="floatTL"style="position:absolute; top:6683px;left: 104px;">
+                <svg height="210" width="500">
+                  <line x1="100" y1="0" x2="0" y2="55" style="stroke:#F7941E;stroke-width:1" />
+                  Sorry, your browser does not support inline SVG.
+                </svg>
+              </div>
+              <div class="floatTL"style="position:absolute; top:6683px;left: 104px;">
+                <svg height="210" width="500">
+                  <line x1="170" y1="0" x2="0" y2="95" style="stroke:#F7941E;stroke-width:1" />
+                  Sorry, your browser does not support inline SVG.
+                </svg>
+              </div>
+              <div class="floatTL"style="position:absolute; top:6683px;left: 104px;">
+                <svg height="210" width="500">
+                  <line x1="240" y1="0" x2="0" y2="140" style="stroke:#F7941E;stroke-width:1" />
+                  Sorry, your browser does not support inline SVG.
+                </svg>
+              </div>
+              <div class="col-xs-6">
+                <p class="annotation"> Specify a date, time and location</p>
+              </div>
+            </div>
+
+            <div class="row desc-proj ">
+              <div class="col-xs-6">
+                  <img class="screenshot" src="images/screenshotday.png" />
+              </div>
+              <div class="floatTL"style="position:absolute; top:6805px;left: 90px;">
+                <svg height="210" width="500">
+                  <line x1="114" y1="122" x2="0" y2="140" style="stroke:#F7941E;stroke-width:1" />
+                  Sorry, your browser does not support inline SVG.
+                </svg>
+              </div>
+              <div class="col-xs-6">
+                <p class="annotation"> Look at a specific day</p>
+              </div>
+              <div class="floatTL"style="position:absolute; top:6824px;left: 90px;">
+                <svg height="210" width="500">
+                  <line x1="114" y1="153" x2="63" y2="130" style="stroke:#F7941E;stroke-width:1" />
+                  Sorry, your browser does not support inline SVG.
+                </svg>
+              </div>
+
+              <div class="col-xs-6">
+                <p class="annotation">View your day specific route</p>
+              </div>
+            </div>
+
+            <div class="row desc-proj ">
+              <div class="col-xs-6">
+                  <img class="screenshot" src="images/screenshotmap.png" />
+              </div>
+              <div class="floatTL"style="position:absolute; top:7112px;left: 90px;">
+                <svg height="210" width="500">
+                  <line x1="114" y1="153" x2="37" y2="205" style="stroke:#F7941E;stroke-width:1" />
+                  Sorry, your browser does not support inline SVG.
+                </svg>
+              </div>
+              <div class="col-xs-6">
+                <p class="annotation"> Your current location</p>
+              </div>
+              <div class="col-xs-6">
+                <p class="annotation">Go in order of time of task, or quickest route between each destination.</p>
+              </div>
+            </div>
+
           </div>
         </section>
 
@@ -295,30 +571,83 @@
               <div class="col-md-6 col-md-push-6">
                 <h2 class="projname">WARMHOME.IE</h2>
                 <p class="preview">
-                  If you spend your day running errands or completing tasks then day by day is the application you
-                  need. Day by day is a combination of two really great and handy applications that most smartphones
-                  come with. Picture google maps with a check list and you’re on the money. <br />
-                  While we see it's easy enough to just use the two apps separately, what our app does is t takes in all
-                  of the details from each task that needs to be complete that day.
+                  Warmhome is a small home run business by Tony Purcell. Tony is a Gas Boiler engineer and figured that
+                  he might need a website to help him manage his appointments and advertisements. So he gave
+                  me a call and i whipped up a website for him to work with.
                 </p>
               </div>
             </div>
           </div>
         </section>
 
-        <section id="proj" class="proj" style="background: url('images/WarmhomeMock-Up2.png'); background-size: cover;">
+        <section id="proj" class="proj warmHome hidden-xs">
           <div class="container">
-            <div class="row title-proj">
+            <div class="row desc-proj">
               <div class="col-md-3 col-md-offset-1">
                 <p class="annotation"> Created in bootstrap<br /> framework for<br /> multiple platforms</p>
+              </div>
+              <div class="floatTL"style="position:absolute; top:6642px;left: 676px;">
+                <svg height="500" width="500">
+                  <line x1="275" y1="275" x2="64" y2="130" style="stroke:#F7941E;stroke-width:1" />
+                  Sorry, your browser does not support inline SVG.
+                </svg>
+              </div>
+              <div class="floatTL"style="position:absolute; top:6642px;left: 626px;">
+                <svg height="500" width="500">
+                  <line x1="100" y1="440" x2="64" y2="130" style="stroke:#F7941E;stroke-width:1" />
+                  Sorry, your browser does not support inline SVG.
+                </svg>
+              </div>
+              <div class="floatTL"style="position:absolute; top:6642px;left: 426px;">
+                <svg height="500" width="500">
+                  <line x1="0" y1="420" x2="64" y2="130" style="stroke:#F7941E;stroke-width:1" />
+                  Sorry, your browser does not support inline SVG.
+                </svg>
               </div>
             </div>
 
             <div class="row title-proj">
-
+              <div class="col-md-12">
+              </div>
             </div>
             <div class="row title-proj">
+              <div class="col-md-12">
+              </div>
+            </div>
 
+            <div class="row title-proj">
+              <div class="col-md-2 col-md-offset-8">
+                <img class="platform-logo" src="images/css_html.png" />
+              </div>
+              <div class="col-md-2">
+                <img class="platform-logo" src="images/logo_bootstrap.png" />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="proj" class="proj warmHome hidden-md hidden-lg">
+          <div class="container">
+            <div class="row desc-proj">
+              <div class="col-xs-6">
+                <p class="annotation"> Created in bootstrap<br /> framework for<br /> multiple platforms</p>
+              </div>
+              <div class="col-xs-6">
+                <p class="annotation"> Contact, Pricing Table and Testimonials page to submit reviews</p>
+              </div>
+              <div class="col-xs-12">
+                <img src="images/Screenshowarmhome.png" style="width:75%;" />
+                <img src="images/warmhomeMobile.png" style="width: 21%; margin-left: 9px;" />
+              </div>
+            </div>
+
+            <div class="row title-proj">
+              <div class="col-md-12">
+              </div>
+            </div>
+            <div class="row title-proj">
+              <div class="col-md-12">
+              </div>
             </div>
 
             <div class="row title-proj">
@@ -336,15 +665,15 @@
         <section id="cont" class="cont">
           <div class="container">
             <div class="row contact">
-              <div class="col-md-6 col-md-push-3">
+              <div class="col-md-6 col-md-offset-3 col-xs-12">
                 <h2 class="contacttitle">CONTACT ME</h2>
               </div>
             </div>
             <div class="row contact">
-              <div class="col-md-6">
-                <img class="map" src="images/addresssnap.png"/>
+              <div class="col-md-6 col-xs-12">
+                <img class="map" src="images/addresssnap.png" style="width:100%;"/>
               </div>
-              <div class="col-md-4 details">
+              <div class="col-md-4 col-xs-12 details">
                 <address>
                   16 Glen Ellan Avenue<br />
                   Swords<br />
@@ -359,6 +688,35 @@
           </div>
         </section>
 
-
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+          <h2>SOCIAL</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-2 col-md-offset-2 col-xs-3">
+          <img class="social" src="images/twitter.png" />
+        </div>
+        <div class="col-md-2 col-xs-3">
+          <img class="social" src="images/facebook.png" />
+        </div>
+        <div class="col-md-2 col-xs-3">
+          <img class="social" src="images/instagram.png" />
+        </div>
+        <div class="col-md-2 col-xs-3">
+          <img class="social" src="images/linked-in.png" />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-9">
+          <p>
+            This website was made and copyrighted by <b> Grace.</b>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
   </body>
 </html>

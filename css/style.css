@@ -4,9 +4,112 @@ body{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.floatTL{
+ position:absolute;
+ top: 6571px;
+ left: 105px;
 }
 
-.annotation,
+@media (max-width: 768px) {
+    .warmHome,
+    .dayByday{
+      background-color: #2f2f2f;
+    }
+    .title {
+        font-size:13em;
+    }
+    .thesis-icon{
+      width:100%;
+    }
+    .server-icon{
+      width:100%;
+    }
+    .aboutMe,
+    .title-proj{
+      margin-top:20px;
+      margin-bottom:20px;
+    }
+    .desc-proj{
+      margin-top:20px;
+      margin-bottom:0px;
+    }
+    .projname,
+    .contacttitle{
+      background-color: #F7941E;
+      font-size: 3em;
+      padding: 10px;
+    }
+    .annotation{
+      border:1px solid #F7941E;
+      font-size: 0.9em;
+      padding:10px;
+      font-weight: 300;
+      font-family: 'Raleway', sans-serif;
+      color: #fff;
+    }
+    .social{
+      width:100%;
+    }
+}
+@media (min-width: 769px) {
+    .dayByday{
+      background: url('../images/dayByday.png');
+      background-size: cover;
+    }
+    .warmHome{
+      background: url('../images/WarmhomeMock-Up2.png');
+      background-size: cover;
+    }
+    .title {
+        font-size: 19.24em;
+        margin-top:300px;
+    }
+    .thesis-icon{
+      width:65%;
+    }
+    .server-icon{
+      width:60%;
+    }
+    .aboutMe,
+    .title-proj{
+      margin-top: 150px;
+      margin-bottom: 150px;
+    }
+    .desc-proj{
+      margin-top:50px;
+      margin-bottom:20px;
+    }
+    .projname,
+    .contacttitle{
+      background-color: #F7941E;
+      font-size: 4em;
+      padding: 10px;
+    }
+    .annotation{
+      border:1px solid #F7941E;
+      font-size: 1.4em;
+      padding:10px;
+      font-weight: 300;
+      font-family: 'Raleway', sans-serif;
+      color: #fff;
+    }
+    .social{
+      width:50%;
+    }
+}
+#about-me,
+#proj{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.screenshot{
+  width:100%;
+}
+
 .contacttitle,
 .details,
 .projname,
@@ -16,7 +119,6 @@ font-weight: 300;
 }
 
 .aboutMe h2,
-.annotation,
 .contacttitle,
 .description,
 .details,
@@ -28,7 +130,6 @@ font-weight: 300;
 }
 
 .aboutMe h2,
-.annotation,
 .description,
 .details,
 .projdesc,
@@ -50,13 +151,74 @@ font-weight: 300;
   font-family: 'Great Vibes', cursive;
   color: #F7941E;
 }
-
-.projname,
-.contacttitle{
-  background-color: #F7941E;
-  font-size: 4em;
-  padding: 10px;
+footer{
+  background-color: rgba(0,0,0,0.7);
+  padding-top:100px;
+  padding-bottom:100px;
+  opacity:50%;
 }
+
+footer h2{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 4em;
+  text-align: right;
+  color: #f7941e;
+  padding-bottom: 50px;
+}
+footer p b{
+  font-family: 'Great Vibes', cursive;
+}
+footer p{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 2em;
+  text-align: right;
+  color: #f7941e;
+  padding-bottom: 50px;
+}
+
+.social{
+  padding-bottom: 100px;
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+
+.social:hover {
+  -webkit-transform: rotate(-10deg);
+     -moz-transform: rotate(-10deg);
+       -o-transform: rotate(-10deg);
+      -ms-transform: rotate(-10deg);
+          transform: rotate(-10deg);
+}
+
+.diagram-row{
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+
+.rotate315 {
+    -webkit-transform: rotate(315deg);
+    -moz-transform: rotate(315deg);
+    -o-transform: rotate(315deg);
+    -ms-transform: rotate(315deg);
+    transform: rotate(315deg);
+}
+.rotate45 {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+
+
+
 
 .contacttitle,
 .map,
@@ -65,26 +227,18 @@ font-weight: 300;
   margin-bottom: 50px;
 }
 
-.contacttitle,
+
 .map{
   text-align: center;
 }
 
-.title{
-  font-size: 19.24em;
-  margin-top:300px;
-}
 .subtitle{
   font-size: 1.5em;
   text-align: center;
   margin-bottom: 200px;
 }
 
-.aboutMe,
-.title-proj {
-  margin-top:150px;
-  margin-bottom:150px;
-}
+
 .aboutMe h2{
   font-size: 6em;
 }
@@ -94,23 +248,20 @@ font-weight: 300;
 }
 .projdesc{
   margin-top: 50px;
-  font-size: 1.6em;
+  font-size: 1.3em;
 }
 
 .logo img{
   width: 100%;
 }
 
-.annotation{
-  border:1px solid #F7941E;
-  font-size: 1.4em;
-  padding:10px;
-}
-
 .cont{
-  padding: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .details{
   text-align: right;
+  font-size: 1.5em;
+  color: #f7941e;
 }
